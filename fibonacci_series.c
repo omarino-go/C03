@@ -7,18 +7,17 @@ int main(){
   scanf("%d",&n);
   //parcour du nombre donnée
   for(int i=0;i<n;i++){
-    //si i est inférieur à 1
-    if (i<1){
-      printf("%d ",a);
-      suite=b;}
-    //sinon
-    else{
+      //si i est inférieur ou egal à 1
+      if (i<=1)
+        suite=i;      
+      //sinon
+      else{
+        suite=a+b;
+        a=b;
+        b=suite;
+        }
       printf("%d ",suite);
-      suite=a+b;
-      a=b;
-      b=suite;
-      }
-  }
-  printf("\n");
-  return 0;
+    }
+    printf("\n");
+    return 0;
 }
