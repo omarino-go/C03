@@ -19,5 +19,6 @@ int main(){
       b=suite;
       }
   }
+  printf("\n");
   return 0;
 }
