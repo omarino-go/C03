@@ -1,0 +1,20 @@
+#include<stdio.h>
+//fonction principale
+int main(){
+  //les variable necessaire pour le programme
+  int a=0,b=1,n,suite;
+  //recuperation du nombre d'incrémentation
+  scanf("%d",&n);
+  //parcour du nombre donnée
+  for(int i=1;i<=n;i++){
+    //si i est inférieur à 1
+    if (i<1)
+      printf("%d",a)
+    //sinon
+    else{
+      suite=a+b;
+      a=b;
+      b=suite;
+      printf("%d",suite);}
+  }
+  return 0;
