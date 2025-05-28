@@ -9,11 +9,11 @@ int main(){
   for(int i=0;i<n;i++){
     //si i est inférieur à 1
     if (i<1){
-      printf("%d",a);
+      printf("%d ",a);
       suite=b;}
     //sinon
     else{
-      printf("%d",suite);
+      printf("%d ",suite);
       suite=a+b;
       a=b;
       b=suite;
