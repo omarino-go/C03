@@ -2,11 +2,11 @@
 //fonction principale
 int main(){
   //les variable necessaire pour le programme
-  int a=0,b=1,n,suite;
+  int a=0,b=1,n,suite,i;
   //recuperation du nombre d'incrémentation
   scanf("%d",&n);
   //parcour du nombre donnée
-  for(int i=0;i<6;i++){
+  for(i=0;i<6;i++){
       //si i est inférieur ou egal à 1
       if (i<=1)
         suite=i;      
