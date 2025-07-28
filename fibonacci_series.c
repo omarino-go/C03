@@ -6,7 +6,7 @@ int main(){
   //recuperation du nombre d'incrémentation
   scanf("%d",&n);
   //parcour du nombre donnée
-  for(int i=0;i<n;i++){
+  for(int i=0;i<6;i++){
       //si i est inférieur ou egal à 1
       if (i<=1)
         suite=i;      
